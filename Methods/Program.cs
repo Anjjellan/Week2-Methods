@@ -35,7 +35,12 @@ void CreateMenu()
         Console.WriteLine($"An error occurred: {ex.Message}");
     }
 }
+
 static void SayHello()
+{
+    Console.WriteLine("Hello, World!");
+}
+static void AddNumbers()
 {
     Console.Write("Enter the first number: ");
     int firstNumber = Convert.ToInt32(Console.ReadLine());
